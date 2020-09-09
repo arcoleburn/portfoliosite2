@@ -45,14 +45,17 @@ header nav ul li a {
 header nav ul li:last-child a {
   margin-right: 0;
 }
+
+/*fonts and size for intro*/
 #intro h2 {
-    font-size: 50px;
-  }
-  
+  font-size: 50px;
+}
+
 #intro img {
-    width: 100%;
-  }
-  
+  width: 100%;
+}
+
+/*main content flex container and style rules */
 #main {
   display: flex;
   flex-direction: column;
@@ -62,19 +65,19 @@ header nav ul li:last-child a {
   margin-bottom: 25px;
 }
 #main h3 {
-    font-size: 36px;
+  font-size: 36px;
 }
-#main p{
-    font-size: 24px
+#main p {
+  font-size: 24px;
 }
 
+/*fix list in doing section */
 #doing ul {
   list-style: none;
-  padding-left:0;
+  padding-left: 0;
 }
 
 /*social icons styling*/
-
 #socials {
   display: flex;
   justify-content: space-evenly;
@@ -82,9 +85,34 @@ header nav ul li:last-child a {
 #socials img {
   width: 100px;
   height: auto;
-  border: 1px solid black
+  border: 1px solid black;
+}
+
+#projects{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin:0
    
 }
+#projects p{
+    margin-top: 12px;
+  margin-bottom: 12px;
+}
+#projects:last-child{
+    margin-bottom: 25px;
+}
+#placeholder{
+    align-self:center;
+    height: 250px;
+    width:250px;
+    background-color: white;
+    color:black;
+    margin: 0 0 0 0;
+    
+   
+}
+
 
 /*media query for responsiveness on desktop*/
 @media all and (min-width: 600px) {
@@ -114,3 +142,4 @@ header nav ul li:last-child a {
     margin-bottom: 25px;
   }
 }
+
