@@ -1,0 +1,14 @@
+ <body>
+    <header class="center">
+      <h1 class="title-font">Andrew Coleburn </h1>
+      <h2 class="title-font" style="font-weight:400; font-size:100px"> Software Engineer</h2>
+    </header>
+    <div class="container" > <!--top container -->
+      <div class="box" width="25%" style="padding:10px; margin:150px" > <!--headshot-->
+      <img src="images/headshot.jpg" style= "border-radius:45%" width="100%">
+      </div>
+      <div class="box" width="85%" style="padding:10px"> <!-- intro text--> 
+        <h2 class="hello-text" style="white-space: nowrap; padding-top: 25%"> Hey there. </h2>
+        <h2 class="hello-text"> I'm Andrew Coleburn. </h2>
+      </div>
+    </div>

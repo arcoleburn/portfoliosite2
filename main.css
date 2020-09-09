@@ -1,0 +1,116 @@
+/*sets background black and text color white*/
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/*h1 and h2 rules */
+h1 {
+  font-family: oswald;
+  font-weight: 600;
+  font-size: 52px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+h2 {
+  color: white;
+}
+
+/*header and nav styles*/
+header {
+  background-color: #030114;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  font-family: raleway;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+#intro h2 {
+    font-size: 50px;
+  }
+  
+#intro img {
+    width: 100%;
+  }
+  
+#main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#main h3 {
+    font-size: 36px;
+}
+#main p{
+    font-size: 24px
+}
+
+#doing ul {
+  list-style: none;
+  padding-left:0;
+}
+
+/*social icons styling*/
+
+#socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+#socials img {
+  width: 100px;
+  height: auto;
+  border: 1px solid black
+   
+}
+
+/*media query for responsiveness on desktop*/
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  h1 {
+    margin: 14px 0;
+    padding-top: 0px;
+    font-size: 48px;
+  }
+  header nav {
+    margin-top: 8px;
+  }
+  header nav ul {
+    padding-top: 15px;
+  }
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+  #main {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}

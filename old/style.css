@@ -1,0 +1,106 @@
+/*set box sizing throughout*/
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* sets background color and text color*/
+
+body{
+  background: #000000;
+  color:#e0e0e0;
+  
+}
+/*set header dimensions*/
+header{
+  padding: 25px
+}
+/* TEXT CLASSES */
+/*create class for greeting text*/
+.hello-text{
+  font-family: oswald;
+  font-size: 50px;
+  color: #e0e0e0;
+  overflow:visible; 
+}
+
+/*create class for body text*/
+.body-text{
+  font-family: raleway;
+  font-size:26px
+}
+
+/*title font class*/
+.title-font{
+  font-family: oswald;
+  font-weight: 600;
+  font-size: 100px;
+  margin: 1px
+}
+
+/*class to center text alignment */
+.center{
+  text-align: center
+}
+
+
+/*CONTAINERS*/
+
+/*creates container for navbar*/
+.container{
+display:flex;
+justify-content: space-evenly;
+
+}
+
+/*create flex container for main content*/
+.container2{
+  display:flex;
+  flex-direction: column;
+  margin-left:15px;
+  margin-right:15px;
+  margin-top: 25px;
+  margin-bottom: 25px
+}
+
+/* box for containers*/
+.box{
+ margin-top:50px;
+ margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* nav item classes*/
+.navitem a:link {
+   color: #e0e0e0;
+   padding:10px
+}
+.navitem a:visited {
+  color: #e0e0e0;
+  padding:10px
+}
+.navitem a:hover {
+  color: black; 
+  background:white;
+  padding:10px
+}
+.navitem a:active {
+  color: #e0e0e0;
+  padding:10px
+}
+
+
+@media all and (min-width: 800px){
+  .container2{
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 25px;
+    margin-bottom: 25px
+  }
+}
