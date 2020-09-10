@@ -1,9 +1,12 @@
 /*sets background black and text color white*/
+*{
+    scroll-behavior: smooth;
+}
 body {
   background-color: black;
   color: white;
   text-align: center;
-  scroll-behavior: smooth;
+  
 }
 
 /*h1 and h2 rules */
