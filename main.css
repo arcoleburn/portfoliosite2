@@ -9,6 +9,12 @@ body {
   text-align: center;
   
 }
+fieldset{
+  display: flex;
+  flex-direction: column;
+  
+  :nth-
+}
 
 /*h1 and h2 rules */
 h1 {
@@ -96,7 +102,7 @@ header nav ul li:last-child a {
 
 #projects{
     display:flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-content: center;
     margin:0
    
@@ -108,15 +114,20 @@ header nav ul li:last-child a {
 #projects:last-child{
     margin-bottom: 25px;
 }
+
+#proj{
+  display: flex;
+  flex-direction: column;
+}
 #placeholder{
-    align-self:center;
-    height: 250px;
+   align-self:center;
+     /* height: 250px;
     width:250px;
     background-color: white;
     color:black;
     margin: 0 0 0 0;
     
-   
+    */
 }
 
 
@@ -148,7 +159,7 @@ header nav ul li:last-child a {
     margin-bottom: 25px;
   }
   #socials img:hover{
-    box-shadow: 0 10px 20px rgba(34,39,58,.75)
+    box-shadow: 0 10px 20px rgba(200,200,200,1)
   }
 }
 
