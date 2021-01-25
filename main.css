@@ -114,11 +114,18 @@ header nav ul li:last-child a {
     margin-bottom: 25px;
 }
 
-#proj{
+.proj{
   display: flex;
   flex-direction: column;
+
+  
 }
-#placeholder{
+
+img{
+  border-radius: 10px;
+  max-width: 90%;
+}
+.placeholder{
    align-self:center;
      /* height: 250px;
     width:250px;
