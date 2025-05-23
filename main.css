@@ -62,7 +62,7 @@ header nav ul li:last-child a {
 }
 
 #intro img {
-  width: 100%;
+  width: 50%;
 }
 
 /*main content flex container and style rules */
@@ -76,6 +76,9 @@ header nav ul li:last-child a {
 }
 #main h3 {
   font-size: 36px;
+}
+#main h4{
+  font-size: 30px;
 }
 #main p {
   font-size: 24px;
